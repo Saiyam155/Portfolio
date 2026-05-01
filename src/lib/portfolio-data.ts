@@ -248,5 +248,5 @@ export const contact = {
   phone: "(857) 396-4471",
   linkedin: "https://linkedin.com/in/saiyam-doshi",
   github: "https://github.com/saiyam155",
-  location: "Boston, MA",
+  location: "Boston, MA (Open to Relocation)",
 };
