@@ -45,7 +45,7 @@ export function ExperienceLog() {
                         [{r.start} → {r.end}]
                       </span>
                       <span className="text-ink font-bold">{r.company}</span>
-                      <span className="text-ink-dim font-medium hidden md:inline">{r.role}</span>
+                      <span className="text-ink-dim font-medium">{r.role}</span>
                     </div>
                     {/* Headline visible on collapse */}
                     {!isOpen && (
@@ -150,9 +150,9 @@ function LogLine({ text }: { text: string }) {
 
 export function SectionHeader({ title, sub }: { title: string; sub?: string }) {
   return (
-    <div className="font-mono">
-      <h2 className="text-2xl sm:text-3xl font-bold text-ink">
-        <span className="text-data-cyan">{">"}</span> {title}
+    <div className="font-mono pl-4 border-l-2 border-data-cyan">
+      <h2 className="text-2xl sm:text-3xl font-bold text-data-cyan">
+        <span className="text-ink-faint opacity-60">{">"}</span> {title}
       </h2>
       {sub && <div className="mt-1 text-xs text-ink-faint">{sub}</div>}
     </div>

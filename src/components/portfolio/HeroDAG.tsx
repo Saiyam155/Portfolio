@@ -44,15 +44,21 @@ export function HeroDAG() {
           <span className="text-data-cyan">main</span>
         </div>
 
+        <div className="flex items-center gap-3 mb-4">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-signal-green/50 bg-signal-green/10 px-3 py-1 font-mono text-xs text-signal-green font-semibold">
+            <span className="h-1.5 w-1.5 rounded-full bg-signal-green pulse-dot" />
+            OPEN TO WORK · Full-time · Boston (Open to Relocation)
+          </span>
+        </div>
         <h1 className="font-mono text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-ink">
           <span className="text-data-cyan">{">"}</span> Saiyam Doshi
         </h1>
-        <p className="mt-4 max-w-2xl font-mono text-base sm:text-lg text-ink">
-          I build the <span className="text-signal-green font-bold">data infrastructure</span> AI systems run on.
+        <p className="mt-3 max-w-2xl font-mono text-base sm:text-lg text-ink">
+          <span className="text-signal-green font-bold">Data Engineer</span> · AI & LLM Infrastructure
           <span className="blink ml-1 text-signal-green">▍</span>
         </p>
-        <p className="mt-2 max-w-2xl font-mono text-base sm:text-lg text-ink-dim">
-          Building pipelines moving terabytes of data.
+        <p className="mt-1 max-w-2xl font-mono text-sm sm:text-base text-ink-dim">
+          I build the data pipelines, RAG systems, and retrieval infrastructure AI products run on — at terabyte scale.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-3 font-mono text-sm">
@@ -88,7 +94,7 @@ export function HeroDAG() {
         {/* DAG */}
         <div className="mt-10">
           <div className="font-mono text-xs uppercase tracking-widest text-ink-faint mb-4">
-            // career.dag — chronological data flow
+            // <span className="text-data-cyan font-bold tracking-widest">career.dag</span> — chronological data flow
           </div>
 
           {/* Desktop horizontal */}

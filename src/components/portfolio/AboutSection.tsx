@@ -2,9 +2,9 @@ export function AboutSection() {
   return (
     <section id="about" className="border-b border-hairline">
       <div className="mx-auto max-w-7xl px-4 py-14">
-        <div className="font-mono">
-          <h2 className="text-2xl sm:text-3xl font-bold text-ink">
-            <span className="text-data-cyan">{">"}</span> ./about --me
+        <div className="font-mono pl-4 border-l-2 border-data-cyan">
+          <h2 className="text-2xl sm:text-3xl font-bold text-data-cyan">
+            <span className="text-ink-faint opacity-60">{">"}</span> ./about --me
           </h2>
           <div className="mt-1 text-xs text-ink-faint">
             // cat about.md
@@ -40,7 +40,7 @@ export function AboutSection() {
             {/* Right: env-dump */}
             <div className="px-5 sm:px-6 py-6 text-base space-y-2">
               {[
-                ["LOCATION", "Boston, MA"],
+                ["LOCATION", "Boston, MA (Open to Relocation)"],
                 ["OPEN_TO", "Full-time · Contract"],
                 ["FOCUS", "RAG infra · LLM pipelines · Data Eng"],
                 ["CURRENT", "humanitarians.ai (volunteer)"],
